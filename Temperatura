@@ -1,0 +1,43 @@
+public class Temperatura {
+
+    
+    public double verificarTemp(int opcao) {
+        
+        double[] temperaturas = {28,27, 19,12, 11, 5,16,16,22};
+        
+        if (opcao >= 1 && opcao <= 10) {
+            return temperaturas[opcao - 1];
+        } else {
+            return -1; // Opção inválida
+       
+            case 1:
+            nomeCidade = "Bangkok";
+            break;
+            
+         case 2:
+          nomeCidade = "Dubai";
+          break;
+      
+          case 3:
+          nomeCidade = "São Paulo";
+          break;
+      
+          case 4:
+          nomeCidade = "Nova York";
+          break;
+          
+          case 5:
+          nomeCidade = "Sydney";
+          break;
+  
+          case 6:
+         nomeCidade = "Londres";
+          break;
+  
+          case 7:
+          nomeCidade = "Moucou";
+          break;
+       
+        }
+    }
+}
